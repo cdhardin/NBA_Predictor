@@ -29,7 +29,7 @@ I implemented web scrapers to extract the necessary data from the above sources.
 ### Data Extraction
 
 The collected data includes:
-- Player passing statistics
+- Player passing statistics (Example: https://www.nba.com/stats/player/1627759/passes-dash)
 - Team rosters
 - Game schedules
 - Historical game results
