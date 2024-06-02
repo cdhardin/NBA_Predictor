@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project involves collecting and analyzing NBA player passing data to create ball possession Markov chains for each team. Using these Markov chains, we simulate games and entire seasons. The data was collected from NBA.com and Basketball Reference using web scrapers.
+This project involves collecting and analyzing NBA player passing data to create ball possession Markov chains for each team. Using these Markov chains, I simulate games and entire seasons. The data was collected from NBA.com and Basketball Reference using web scrapers.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This project involves collecting and analyzing NBA player passing data to create
 
 ## Introduction
 
-The goal of this project is to model and simulate NBA games and seasons using statistical methods. By analyzing player passing data, we can build Markov chains that represent ball possession transitions within a team. These chains serve as the foundation for simulating realistic games and seasons.
+The goal of this project is to model and simulate NBA games and seasons using statistical methods. By analyzing player passing data, I built Markov chains that represent ball possession transitions within a team. These chains serve as the foundation for simulating realistic games and seasons.
 
 ## Data Collection
 
@@ -36,7 +36,7 @@ The collected data includes:
 
 ## Markov Chains
 
-Using the extracted player passing data, we construct Markov chains for each team. These chains model the probability of the ball being passed between players and other events such as shooting or turnovers.
+Using the extracted player passing data, I constructed Markov chains for each team. These chains model the probability of the ball being passed between players and other events such as shooting or turnovers.
 
 A deeper look into the dynamics of a team’s possession reveals that public data from NBA.com provides the probability of a player passing to any other player on his team. Using this information, a transition matrix can be created for each team.
 
@@ -73,4 +73,4 @@ The simulation scripts are located in the `simulations` directory.
 ### Contributions
 Thank you to Tim Najar who collaborated on this project. He created a different markov chain model based on team stats instead of player stats. Our models produced similar results.
 
-Feel free to reach out with any questions or feedback! We hope this project provides valuable insights into the dynamics of NBA games through the lens of Markov chains.
+Please reach out with any questions or feedback! I hope this project provides valuable insights into the dynamics of NBA games through the lens of Markov chains.
