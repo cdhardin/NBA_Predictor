@@ -24,7 +24,7 @@ The goal of this project is to model and simulate NBA games and seasons using st
 
 ### Web Scrapers
 
-We have implemented web scrapers to extract the necessary data from the above sources. The scripts for web scraping are located in the `scrapers` directory.
+I implemented web scrapers to extract the necessary data from the above sources. 
 
 ### Data Extraction
 
